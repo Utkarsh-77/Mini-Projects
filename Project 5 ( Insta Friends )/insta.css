@@ -1,0 +1,388 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+
+
+    /* justify-content: center; */
+    /* background-color:aqua; */
+}
+
+.header{
+    height: 5.5rem;
+    /* width: 80%; */
+    /* background-color: aliceblue; */
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    overflow:hidden;
+    margin-top: 1rem;
+    color: white;
+    
+}
+
+.header h1{
+    font-size: 1.8rem;
+    font-weight: bold;
+
+}
+
+.header p{
+    margin-top: 1rem;
+    font-size: 0.9rem;
+    
+}
+
+.main-content{
+    width: 80%;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.cards{
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(1,1fr);
+    margin-bottom: 1rem;
+}
+
+@media (min-width:650px){
+    .cards{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+
+@media (min-width:850px){
+    .cards{
+        grid-template-columns: repeat(3,1fr);
+    }
+} 
+
+@media (min-width:1050px){
+    .cards{
+        grid-template-columns: repeat(4,1fr);
+    }
+} 
+
+.box1{
+    display: flex;
+    flex-direction: column;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    /* justify-content: end; */
+}
+
+.box1-user{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.box1-image{
+    position: relative;
+    overflow: hidden;
+    height: 12rem;
+}
+
+.image1{
+    object-fit: cover;
+    object-position: center;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+.left1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.right1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.anchorlogo{
+    border-radius: 50%;
+    height: 40px;
+}
+
+.para1{
+    margin-left: 10px;
+    color: white;
+}
+
+.box1-content{
+    margin-top: 1rem;
+    color: white;
+}
+
+
+
+.box1-content h2{
+    font-size: 1.3rem;
+    margin-bottom: 0.5rem;
+}
+
+.button{
+    height: 20px;
+    width: 60px;
+    color: white;
+    background-color: rgb(0, 97, 224);
+    
+}
+
+.box1:hover .image1{
+    transform: scale(1.2);
+    transition-duration: 300ms;
+}
+
+    /* -----Box 2------  */
+
+.box2{
+        display: flex;
+        flex-direction: column;
+        border-radius: 0.5rem;
+        overflow: hidden;
+        /* justify-content: end; */
+}
+
+.box2-image{
+        position: relative;
+        overflow: hidden;
+        height: 12rem;
+}
+
+.image2{
+    object-fit: cover;
+    object-position: top;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+.box2:hover .image2{
+    transform: scale(1.2);
+    transition-duration: 300ms;
+}
+
+    /* -----Box 3------  */
+
+.box3{
+        display: flex;
+        flex-direction: column;
+        border-radius: 0.5rem;
+        overflow: hidden;
+        /* justify-content: end; */
+}
+
+.box2-image{
+        position: relative;
+        overflow: hidden;
+        height: 12rem;
+}
+
+.image3{
+    object-fit: cover;
+    object-position: top;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+.box3:hover .image3{
+    transform: scale(1.2);
+    transition-duration: 300ms;
+}
+
+
+    /* -----Box 4------  */
+
+.box4{
+        display: flex;
+        flex-direction: column;
+        border-radius: 0.5rem;
+        overflow: hidden;
+        /* justify-content: end; */
+}
+
+.box2-image{
+        position: relative;
+        overflow: hidden;
+        height: 12rem;
+}
+
+.image4{
+    object-fit: cover;
+    object-position: top;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+.box4:hover .image4{
+    transform: scale(1.2);
+    transition-duration: 300ms;
+}
+
+
+    /* -----Box 5------  */
+
+.box5{
+        display: flex;
+        flex-direction: column;
+        border-radius: 0.5rem;
+        overflow: hidden;
+        /* justify-content: end; */
+}
+
+.box2-image{
+        position: relative;
+        overflow: hidden;
+        height: 12rem;
+}
+
+.image5{
+    object-fit: cover;
+    object-position: center;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+.box5:hover .image5{
+    transform: scale(1.2);
+    transition-duration: 300ms;
+}
+
+ /* -----Box 6------  */
+
+.box6{
+        display: flex;
+        flex-direction: column;
+        border-radius: 0.5rem;
+        overflow: hidden;
+        /* justify-content: end; */
+}
+
+.box2-image{
+        position: relative;
+        overflow: hidden;
+        height: 12rem;
+}
+
+.image6{
+    object-fit: cover;
+    object-position: center;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+.box6:hover .image6{
+    transform: scale(1.2);
+    transition-duration: 300ms;
+}
+
+ /* -----Box 7------  */
+
+ .box7{
+    display: flex;
+    flex-direction: column;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    /* justify-content: end; */
+}
+
+.box2-image{
+    position: relative;
+    overflow: hidden;
+    height: 12rem;
+}
+
+.image7{
+object-fit: cover;
+object-position: top;
+position: absolute;
+height: 100%;
+width: 100%;
+}
+
+.box7:hover .image7{
+transform: scale(1.2);
+transition-duration: 300ms;
+}
+
+ /* -----Box 8------  */
+
+.box8{
+    display: flex;
+    flex-direction: column;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    /* justify-content: end; */
+}
+
+.box2-image{
+    position: relative;
+    overflow: hidden;
+    height: 12rem;
+}
+
+.image8{
+object-fit: cover;
+object-position: center;
+position: absolute;
+height: 100%;
+width: 100%;
+}
+
+.box8:hover .image8{
+transform: scale(1.2);
+transition-duration: 300ms;
+}
+
+.footer{
+    height: 20px;
+    width: 1345px;
+    background-color: rgb(46, 44, 44);
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    overflow: none;
+    margin-top: 30px;
+    margin-bottom: 1rem;
+}
+
+.footer p{
+    font-size: 10px;
+    color: white;
+    transition: all;
+    transition: linear;
+    transition-duration: 0.5s;   
+  
+}
+
+.footer p:hover{
+    font-size: 20px;
+    color: rgb(30, 255, 0);
+    font-weight: bold;
+}
