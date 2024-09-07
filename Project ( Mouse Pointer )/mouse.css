@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#container{
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#head{
+    color: white;
+    font-size: 8rem;
+}
+
+#mouse{
+    height: 1.5rem;
+    width: 1.5rem;
+    border-radius: 50%;
+    mix-blend-mode:hard-light;
+    background-color: rgb(3, 216, 3);
+    position: absolute;
+    mix-blend-mode: difference;
+}
