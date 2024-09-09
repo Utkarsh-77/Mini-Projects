@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+#container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#header {
+  height: 12vh;
+  width: 100%;
+  background-color: inherit;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  border-bottom: 1px solid rgb(0, 0, 0);
+  border-bottom: 1px solid rgb(126, 126, 126);
+  position: fixed;
+}
+
+#brand {
+  font-size: 1.8rem;
+  font-weight: 800;
+}
+
+#ul-list {
+  font-size: 1.1rem;
+  font-weight: 450;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
+  gap: 1rem;
+}
+
+#ul-list a {
+  text-decoration: none;
+  color: rgb(121, 121, 121);
+}
+
+#img-nav {
+  height: 3.6vh;
+  width: 4vw;
+  align-content: center;
+}
+
+#img1 {
+  max-height: 3vh;
+  height: 100%;
+}
+
+#img2 {
+  max-height: 3vh;
+  height: 100%;
+  background: rgb(199, 199, 199);
+  box-shadow: 0px 0px 20px white;
+  border-radius: 50%;
+  display: none;
+}
+
+#section {
+  max-width: 82%;
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  margin-bottom: 2rem;
+  margin-top: 7.2rem;
+}
+
+#section p {
+  max-width: 82%;
+}
+
+#csk {
+  height: 50vh;
+}
