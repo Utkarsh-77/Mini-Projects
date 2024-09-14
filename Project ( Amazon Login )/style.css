@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+#container {
+  height: 100vh;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#amazon {
+  height: 2.5rem;
+}
+
+#form {
+  height: 60vh;
+  width: 28%;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  padding: 0 1.8rem;
+  margin-top: 1rem;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 0px 0px 2px rgb(114, 114, 114);
+}
+
+#para {
+  font-size: 1.8rem;
+  font-weight: 400;
+  margin-top: 1rem;
+}
+
+#lable {
+  font-size: 0.8rem;
+  font-weight: 600;
+  margin-top: 0.8rem;
+  margin-bottom: 0.1rem;
+}
+
+#pass-form {
+  width: 100%;
+  height: 4vh;
+  column-gap: 2rem;
+}
+
+#lable-span {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: #40b2e5;
+  margin-top: 0.8rem;
+  margin-bottom: 0.1rem;
+  margin-top: 0.8rem;
+  margin-left: 9.1rem;
+}
+
+#anchor-span {
+  text-decoration: none;
+}
+
+.input {
+  height: 2rem;
+  border-radius: 4px;
+  border: none;
+  border-color: rgb(216, 216, 216);
+  margin-bottom: 0.78rem;
+  box-shadow: 0px 0px 3px #000000;
+}
+
+#btn {
+  height: 2rem;
+  background-color: #f2ca65;
+  color: black;
+  border: 1px solid gray;
+  border-radius: 5px;
+  font-weight: 500;
+  margin-top: 0.9rem;
+}
+
+#check-div {
+  display: inline;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+#check-anchor {
+  display: inline;
+  text-decoration: none;
+}
+
+.lable-check {
+  font-size: 14px;
+  padding-left: 2px;
+  font-weight: 400;
+}
+
+#check-anchor {
+  font-size: 14px;
+  padding-left: 2px;
+  font-weight: 500;
+  color: #40b2e5;
+}
+
+#line {
+  width: 30.125%;
+  padding-bottom: 2px;
+  display: inline-block;
+  color: #fffefe;
+}
+
+#span{
+    font-size: 12px;
+    color: #818181;
+    padding: 0 6px;
+}
+
+#btn2{
+    background-color: #f0f0f0;
+    height: 2.1rem;
+    margin-top: 0.7rem;
+    border-radius: 5px;
+    border: 1px solid #9b9b9b;
+}
